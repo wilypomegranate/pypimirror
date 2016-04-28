@@ -17,7 +17,7 @@ install_requires = [
 
 setup(
     name='pypimirror-simple',
-    version='0.1.0a0',
+    version='0.1.0a1',
     description='A simple pypimirror',
     long_description=long_description,
     author='wilypomegranate',

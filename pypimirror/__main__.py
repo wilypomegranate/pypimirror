@@ -3,7 +3,7 @@ from __future__ import absolute_import
 import argparse
 import logging
 
-from mirror import PypiMirror
+from .mirror import PypiMirror
 
 logging.basicConfig(level=logging.INFO)
            
