@@ -87,7 +87,8 @@ class PypiModuleSync(threading.Thread):
                 self.get_module(module_name)
             except:
                 logger.exception('Failed to get %s', module_name)
-            self.queue.task_done()
+            finally:
+                self.queue.task_done()
 
 class PypiMirror(object):
 
